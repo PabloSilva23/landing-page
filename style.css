@@ -1,0 +1,303 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 610px;
+    background-image: url('https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80');
+    position: relative;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-attachment: fixed;
+    flex-wrap: wrap;
+}
+header::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    position: absolute;
+    z-index: 1;
+}
+nav {
+    justify-content: space-around;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+nav, ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 14px;
+}
+nav li {
+    padding: 10px 10px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+nav li:hover {
+    background-color: rgb(72, 114, 114);
+}
+.contain-1 {
+    color: white;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+.contain-1 h1 {
+    font-size: 3rem;
+}
+
+button {
+    padding: 10px;
+    width: 120px;
+    margin-top: 1em;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(72, 114, 114);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+button:hover {
+    background-color: tomato;
+}
+section h1, footer h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.section {
+    margin: 3em 0;
+    overflow: hidden;
+}
+.content-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    margin: auto;
+    margin-top: 2em;
+    padding: 0 1em;
+    max-width: 100%;
+    grid-gap: 1em;
+}
+.describe {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 400px;
+    font-size: 12px;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 2em;
+}
+.describe button {
+    margin: auto;
+}
+.box-1 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    margin: auto;
+}
+.box-2 {
+    text-align: center;
+    background-color: #dedede;
+    padding: 4em 0;
+}
+.content-2 {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    flex-wrap: wrap;
+}
+.fade {
+    width: 400px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.img-1{
+    background-image: url('https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    margin: 1em 0;
+    background-size: cover;
+}
+.img-2 {
+    background-image: url('https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGZ1cm5pdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    margin: 1em 1em;
+}
+.img-3 {
+    background-image: url('https://images.unsplash.com/photo-1616464916566-c09efd4272a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA4fHxmdXJuaXR1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    margin: 1em 0;
+}
+.fade:hover::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.39);
+    position: absolute;
+}
+.fade h1 {
+    transition: all .4s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+.fade:hover h1 {
+    top: 45%;
+}
+.box-3 {
+    text-align: center;
+}
+.content-3 {
+   display: flex;
+}
+.card-content {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    text-align: justify;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+}
+.card-content img {
+    width: 500px;
+}
+.card-content p, a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.card-text {
+    flex-direction: column;
+    margin-left: 2em;
+    margin: auto;
+    width: 600px;
+    max-width: 700px;
+}
+.card-text .title {
+    font-size: 11px;
+    align-self: flex-start;
+}
+.card-content .data {
+    align-self: flex-start;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.card-content a {
+    align-self: flex-start;
+    margin: 1em 0;
+    font-weight: bold;
+    color: red;
+}
+.box-4 {
+    background-color: #dedede;
+    padding: 3em 0;
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1602851688358-f72cc9e847a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1711&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+.content-4 {
+    text-align: center;
+}
+.content-4 img {
+    width: 230px;
+}
+
+.content-4 button {
+    margin: 0;
+}
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    box-shadow: 0px 1px 4px black;
+    margin-top: 1em;
+}
+.newsletter input {
+    padding: 0 1em;
+    height: 40px;
+    width: 400px;
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+.newsletter button {
+    padding: 10px;
+    border-radius: 0;
+}
+footer {
+    display: flex;
+    background-color: #111111;
+    width:100%;
+    height: fit-content;
+    padding: 1em;
+    color: white;
+    margin: -100px 0;
+    position: absolute;
+    flex-wrap: wrap;
+}
+footer a {
+    color: white;
+    font-size: 12px;
+}
+.text-footer {
+    margin: 1em;
+    padding: 0 1em;
+    width: 200px;
+}
+.text-footer h1 {
+    font-size: 14px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.content-footer h1 {
+    text-align: left;
+}
+.text-footer p {
+    font-size: 12px;
+}
+.text-footer:nth-child(n +2) {
+    text-align: center;
+}
+.links {
+    display: inline-flex;
+    flex-direction: column;
+}
+.content-footer {
+    flex-grow: 1;
+}
