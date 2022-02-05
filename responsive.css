@@ -62,6 +62,10 @@
 }
 @media screen and (max-width:579px) {
     
+    .contain-1 h1 {
+        font-size: 2rem;
+    }
+
     .content-1 img {
         width: 100%;
     }
@@ -75,6 +79,14 @@
     .content-2 .fade {
         background-size: 90%;
         margin: auto;
+    }
+
+    .newsletter input {
+        width: 12rem;
+    }
+
+    footer {
+        flex-direction: column;
     }
 
     .text-footer {
