@@ -8,6 +8,10 @@ O projeto em questão é com o intuíto de treinar as habilidades adquiridas de 
 
 Para ver o projeto [clique aqui](https://pablosilva23.github.io/landing-page/).
 
+## :framed_picture: Inspirações
+
+Inspirada em uma landing page criada no [Dribbble](https://dribbble.com/shots).
+
 ## :hammer_and_wrench: Funcionalidade
 
 Mostrar, de forma visual, a construção de uma landing page voltada para compras da casa. 
