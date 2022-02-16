@@ -1,6 +1,7 @@
 # landing page
  
-![Landing page](https://user-images.githubusercontent.com/87915108/150837269-5a835a45-36c5-45f3-b824-c427b1cb894e.gif)
+![landing-page](https://user-images.githubusercontent.com/87915108/154210779-8786238a-d234-480c-9a7a-5fc8914f3f1e.gif)
+
 
 # :triangular_ruler: Sobre o projeto
 
