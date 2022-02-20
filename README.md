@@ -41,18 +41,29 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 * [Fontawesome](https://fontawesome.com/v5/search)
 * [Unsplash](https://unsplash.com/wallpapers/phone/lock-screen)
 
-<h2 id="layout">Layout 🖼️</h2>
-
-Inspirada em uma landing page criada no [Dribbble](https://dribbble.com/shots).
-
 <h2 id="funcionalidades">Funcionalidade 🛠️</h2>
 
-Mostrar, de forma visual, a construção de uma landing page voltada para compras da casa. 
+- Nenhuma.
 
-## :man_technologist: Tecnologias
+<h2 id="responsividade">Responsividade 📱	🖥️</h2>
 
-* **HTML5**
-* **CSS3**
+<details>
+<summary>Telas 📺</summary>
+ 
+   <h3 align="center">Mobile 📱</h3>
+ <div align="center">
+   <img src="https://user-images.githubusercontent.com/87915108/154844036-475e4b2a-d7da-4d53-8db9-9358583b9f68.png" width="200px"></img>
+ </div>
+   <h3 align='center'>Notebook 💻</h3>
+   <div align="center">
+   <img src="https://user-images.githubusercontent.com/87915108/154844022-d7757894-9918-46d7-8157-fba4a885cad5.png" width="600px"></img>
+  </div>
+
+</details>
+
+<h2 id="layout">Layout 🖼️</h2>
+
+- Inspirada em uma landing page criada no [Dribbble](https://dribbble.com/shots).
 
 ## Requisitos ⚙️
 
