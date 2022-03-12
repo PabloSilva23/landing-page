@@ -17,7 +17,7 @@
 ### Descrição 📄
 
 - O projeto em questão é com o intuíto de treinar as habilidades adquiridas de html5, css3, flexbox, responsividade e parallax.
-- Para ver o projeto [clique aqui](https://pablosilva23.github.io/landing-page/).
+- Para ver o projeto [clique aqui](https://pablosilva23.github.io/landing-page-home-design/).
 
 ### Objetivo 🎯
 
